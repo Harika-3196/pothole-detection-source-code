@@ -1,0 +1,8 @@
+Potholes are responsible for accidents and traffic coagulation. We assist drivers through warnings of potholes presence. 
+
+Tools: 
+Image processing and Object detection Algorithms
+OpenCV (library of programming functions for computer vision)
+Python
+
+This project identifies potholes from a collection of images with distinct topologies. The Contour Detection  and Cannyedge Algorithms in OpenCV will be customized to work on edges and curved image data. Then, Convex Hull function implementation checks a curve for convexity defects and corrects it. Algorithm works by detecting number of potholes in an image using image processing and opencv tool techniques and as many as potholes detected that many times alert sound is produced to driver regrading pothole in road.We  address pothole problem by implementing potholes on GPS with  pothole unique mark so as and when a driver reach specific pothole GPS itself inform driver and suggest him to take correct path.It also notifies the higher municipal authorities by sending an mail regarding the issue with location
