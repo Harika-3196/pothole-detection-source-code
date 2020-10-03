@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 import pygame
-import cv2.cv as cv
+import cv2 as cv
 import time
 #import smtplib
 from matplotlib import pyplot as plt
@@ -59,7 +59,7 @@ cv2.imshow("Show",img)
 k = cv2.isContourConvex(cnt)
 
 #to check convexity
-print k
+print(k)
 #blur
 blur = cv2.blur(im,(5,5))
 #guassian blur 
